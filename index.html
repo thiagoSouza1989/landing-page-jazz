@@ -30,7 +30,7 @@
 
         <section class="courses-section">
             <div class="cards">
-                <article>
+                <article class="card">
                     <img src="img/piano.png" alt="ícone teclas de piano">
                     <strong>Piano popular</strong>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, delectus neque numquam cumque eveniet optio blanditiis omnis facere dolore dolor!</p>
@@ -38,7 +38,7 @@
                         <img src="img/arrow-right.svg" alt="ir para página do curso">
                     </a>
                 </article>
-                <article>
+                <article class="card">
                     <img src="img/clef.png" alt="ícone clave de sol">
                     <strong>Teoria musical</strong>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, delectus neque numquam cumque eveniet optio blanditiis omnis facere dolore dolor!</p>
@@ -46,7 +46,7 @@
                         <img src="img/arrow-right.svg" alt="ir para página do curso">
                     </a>
                 </article>
-                <article>
+                <article class="card">
                     <img src="img/sax.png" alt="ícone saxofone">
                     <strong>Sax alto</strong>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, delectus neque numquam cumque eveniet optio blanditiis omnis facere dolore dolor!</p>
@@ -54,7 +54,7 @@
                         <img src="img/arrow-right.svg" alt="ir para página do curso">
                     </a>
                 </article>
-                <article>
+                <article class="card">
                     <img src="img/drums.png" alt="ícone bateria">
                     <strong>Bateria</strong>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, delectus neque numquam cumque eveniet optio blanditiis omnis facere dolore dolor!</p>
@@ -64,24 +64,25 @@
                 </article>
             </div>
 
-            <h2>E <span class="text-primary">vários</span> outros!</h2>
-            <a href="#">Conhecer os Cursos</a>
+            <h2 class="text-center">E <span class="text-primary ">vários</span> outros!</h2>
+            <a href="#" class="button mt-2 mx-auto">Conhecer Cursos</a>
         </section>
     </main>
     <footer>
         <div>
-            <img src="img/logo.svg" alt="logo">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quasi non quo odit repellat nulla similique asperiores quisquam, sed rerum repudiandae error aut ab impedit qui a provident dicta aliquid.</p>
+            <img src="img/logo.svg" alt="logo" class="mt-1 mb-1">
+            <p class="mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quasi non quo odit repellat nulla similique asperiores quisquam, sed rerum repudiandae error aut ab impedit qui a provident dicta aliquid.</p>
         </div>
-        <nav>
+        <nav class="mb-2">
             <a href="#">Início</a>
             <a href="#">Cursos</a>
             <a href="#">Eventos</a>
             <a href="#">Contato</a>
         </nav>
-        <form action="get">
-            <label for="email">Receba materiais gratuitos no seu e-mail.</label> 
-            <input type="text" name="email" id="email" placeholder="Digite seu e-mail">
+        <form action="get" class="newsletter-form">
+            <label for="email" class="mb-1">Receba materiais gratuitos no seu e-mail.</label> 
+            <input type="text" name="email" id="email" class="mb-1" placeholder="Digite seu e-mail">
+            <button class="button mb-2">Quero receber</button>
         </form>
     </footer>
 </body>
