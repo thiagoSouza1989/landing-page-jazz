@@ -179,6 +179,22 @@ footer nav a{
     width: 100%;
 }
 
+.minhas-redes{
+    text-align: center;
+    
+    border-top: 1px solid var(--color-black);
+    padding-top: 2rem;
+}
+
+.minhas-redes a{
+    padding: 0 1rem ;
+}
+
+.minhas-redes p{
+    font-style: italic;
+    padding-top: 2rem;
+}
+
 /* utilitários*/
 .mt-1{
     margin-top: 1rem;
