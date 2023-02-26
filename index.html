@@ -6,25 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jazz School</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 </head>
 <body>
     <header>
-        <img src="img/logo.svg" alt="logo school">
-        <nav class="mt-1 mx-auto">
-            <a href="#">Início</a>
-            <a href="#">Cursos</a>
-            <a href="#">Eventos</a>
-            <a href="#">Contato</a>
-        </nav>
-        <a href="#" class="button mt-1 mb-1 mx-auto" >Inscreva-se</a>
+        <div class="container">
+            <img src="img/logo.svg" alt="logo school">
+            <nav >
+                <a href="#">Início</a>
+                <a href="#">Cursos</a>
+                <a href="#">Eventos</a>
+                <a href="#">Contato</a>
+            </nav>
+            <a href="#" class="button mt-1 mb-1 mx-auto" >Inscreva-se</a>
+        </div>
     </header>
     <main>
         <section class="hero-section">
-            <img src="img/hero-img.svg" alt="banda de jazz">
-            <div>
-                <h1 class="mt-2">Crie algo <span class="text-primary decoration">impactante</span> com música!</h1>
-                <p class="mt-2 mb-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita quisquam fuga iusto dicta quae error recusandae omnis nostrum adipisci eius fugit atque nam perferendis, voluptate necessitatibus id non quidem laborum?</p>
-                <a href="#" class="button" >Comece agora!</a>
+            <div class="container row-reverse">
+                <img src="img/hero-img.svg" alt="banda de jazz">
+                <div>
+                    <h1 class="mt-2">Crie algo <span class="text-primary decoration">impactante</span> com música!</h1>
+                    <p class="mt-2 mb-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita quisquam fuga iusto dicta quae error recusandae omnis nostrum adipisci eius fugit atque nam perferendis, voluptate necessitatibus id non quidem laborum?</p>
+                    <a href="#" class="button" >Comece agora!</a>
+                </div>
             </div>
         </section>
 
@@ -69,21 +74,23 @@
         </section>
     </main>
     <footer>
-        <div>
-            <img src="img/logo.svg" alt="logo" class="mt-1 mb-1">
-            <p class="mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quasi non quo odit repellat nulla similique asperiores quisquam, sed rerum repudiandae error aut ab impedit qui a provident dicta aliquid.</p>
+        <div class="container">
+            <div class="about-column">
+                <img src="img/logo.svg" alt="logo" class="mt-1 mb-1">
+                <p class="mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quasi non quo odit repellat nulla similique asperiores quisquam, sed rerum repudiandae error aut ab impedit qui a provident dicta aliquid.</p>
+            </div>
+            <nav class="mb-2">
+                <a href="#">Início</a>
+                <a href="#">Cursos</a>
+                <a href="#">Eventos</a>
+                <a href="#">Contato</a>
+            </nav>
+            <form action="get" class="newsletter-form">
+                <label for="email" class="mb-1">Receba materiais gratuitos no seu e-mail.</label>
+                <input type="text" name="email" id="email" class="mb-1" placeholder="Digite seu e-mail">
+                <button href="#" class="button mb-2">Quero receber</button>
+            </form>
         </div>
-        <nav class="mb-2">
-            <a href="#">Início</a>
-            <a href="#">Cursos</a>
-            <a href="#">Eventos</a>
-            <a href="#">Contato</a>
-        </nav>
-        <form action="get" class="newsletter-form">
-            <label for="email" class="mb-1">Receba materiais gratuitos no seu e-mail.</label> 
-            <input type="text" name="email" id="email" class="mb-1" placeholder="Digite seu e-mail">
-            <a href="#" class="button mb-2">Quero receber</a>
-        </form>
         <div class="minhas-redes">
             <a href="https://www.instagram.com/thg.souza.3/" target="_blank"><img src="img/ig-logo.png" alt="ícone instagram"></a>
             <a href="https://www.facebook.com/thiago.souzadossantos.3/" target="_blank"><img src="img/fb-logo.png" alt="ícone facebook"></a>

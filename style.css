@@ -37,6 +37,7 @@ header img{
 header nav{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin: 1rem auto 0;
 }
 
 nav a{
@@ -159,6 +160,7 @@ h2{
 footer{
     border-bottom: 0;
     padding: 1rem 1.25rem 4rem;
+    
 }
 
 footer nav a{
@@ -177,6 +179,10 @@ footer nav a{
     font-size: 1.5rem;
     padding: .5rem;
     width: 100%;
+}
+
+.button.mb-2{
+    cursor: pointer;
 }
 
 .minhas-redes{
@@ -223,4 +229,73 @@ footer nav a{
 
 .text-center{
     text-align: center;
+}
+
+/* Responsividade*/
+
+@media screen and (min-width: 40rem) {
+    header nav{
+        display: block;
+        text-align: center;
+    }
+    .cards{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .card:nth-child(2n){
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (min-width:48rem) {
+    header div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    header img,
+    header nav,
+    header .button{
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 72rem) {
+    h1, h2{
+        font-size: 4rem;
+    }
+    .container{
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        max-width: 72rem;
+    }
+
+    .container.row-reverse{
+        flex-direction: row-reverse;
+    }
+
+    .about-column{
+        flex: 2;
+    }
+
+    .about-column p{
+        font-size: 1.2rem;
+        max-width: 16rem;
+    }
+
+    footer nav{
+        flex: 1;
+    }
+
+    .newsletter-form{
+        flex: 3;
+    }
+}
+
+@media screen and (min-width: 80rem) {
+    .container{
+        max-width: 80rem;
+    }
 }
